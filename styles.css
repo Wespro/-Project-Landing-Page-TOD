@@ -45,7 +45,7 @@ nav a {
   padding: 4% 7%;
   display: flex;
   flex-wrap: wrap;
-  gap: 1.5rem;
+  gap: 3rem;
   justify-content: space-between;
   align-items: center;
   color: #f9faf8;
@@ -64,10 +64,9 @@ nav a {
   font-size: 18px;
 }
 .heroImg {
-  width: 400px;
-  height: 250px;
+  min-width: 400px;
+  min-height: 250px;
   background-color: #707172;
-  flex-shrink: 0;
 }
 /* info section */
 #info {
@@ -155,7 +154,7 @@ nav a {
 /* footer */
 footer {
   background-color: #1f2937;
-  padding: 2% 7%;
+  padding: 1.5% 7%;
   display: flex;
   justify-content: center;
   align-items: center;
