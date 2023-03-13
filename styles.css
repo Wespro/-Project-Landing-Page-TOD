@@ -44,6 +44,7 @@ nav a {
   background-color: #1f2937;
   padding: 4% 7%;
   display: flex;
+  flex-wrap: wrap;
   gap: 1.5rem;
   justify-content: space-between;
   align-items: center;
@@ -70,7 +71,7 @@ nav a {
 }
 /* info section */
 #info {
-  padding: 2% 12% 4%;
+  padding: 3% 12% 4%;
   text-align: center;
 }
 .infoTitle {
@@ -82,9 +83,9 @@ nav a {
 .infoContent {
   display: flex;
   gap: 1.5rem;
-  justify-content: space-between;
-  gap: 1.5rem;
-  text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 .infoContent .img {
   width: 150px;
@@ -93,30 +94,35 @@ nav a {
   border-radius: 10px;
 }
 .infoContent .content {
+  width: 300px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: 1.5rem;
 }
 /* message section */
 #mess {
   background-color: #e5e7eb;
-  padding: 4% 30% 3%;
+  padding: 4% 20% 3%;
   display: flex;
+  flex-direction: column;
   gap: 1.5rem;
   align-items: center;
+  justify-content: center;
   height: 45vh;
 }
 #mess p {
   align-self: end;
-  flex-shrink: 0;
   font-weight: bolder;
+  flex: 0;
 }
 #mess h3 {
   min-width: fit-content;
   color: #1f2937;
   font-style: italic;
   font-weight: lighter;
+  min-width: fit-content;
 }
 /* call to action section */
 #action {
@@ -128,11 +134,12 @@ nav a {
 .mess {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
-  gap: 3rem;
-  padding: 2% 8%;
+  gap: 2rem;
+  padding: 3% 8%;
   width: 1000px;
-  height: 150px;
+
   border-radius: 10px;
   background-color: #3882f6;
   color: #e5e7eb;
