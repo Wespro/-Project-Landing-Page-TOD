@@ -1,0 +1,33 @@
+/* Genral css  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+/* Navbar */
+header {
+  background-color: #1f2937;
+  padding: 3% 10%;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  color: #f9faf8;
+}
+.logo {
+  font-size: 33px;
+}
+nav ul {
+  display: flex;
+  gap: 1rem;
+}
+nav a {
+  color: #e5e7eb;
+  font-size: 18px;
+}
