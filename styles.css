@@ -67,3 +67,33 @@ nav a {
   background-color: #707172;
   flex-shrink: 0;
 }
+/* info section */
+#info {
+  padding: 2% 12% 4%;
+  text-align: center;
+}
+.infoTitle {
+  font-size: 36px;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 5rem;
+}
+.infoContent {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: space-between;
+  gap: 1.5rem;
+  text-align: center;
+}
+.infoContent .img {
+  width: 150px;
+  height: 150px;
+  border: 3px #3882f6 solid;
+  border-radius: 10px;
+}
+.infoContent .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
